@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>PLUTOWAY TECHNOLOGIES</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="https://starmil.pro/css/style.css">
+
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" rel="stylesheet" />
+	</head>
+
+	<body>
+	<style>a nav footer{font-display:underline;}
+    .wrapper {display: flex;flex-direction: column;
+        width: 100%;min-height: 100vh;padding: 20px 20px;
+        background-color: #fff;position: relative;
+         background: linear-gradient(0deg, rgb(190, 215, 248) 10%, rgb(42, 220, 252) 45%, rgb(2, 192, 250) 81%);}
+          .wrapper::before {content: '';display: flex;justify-content: center;align-items: center;position: absolute;
+          width: 720px;height: 500px;left: -100px;bottom: -200px;// background-color: #f0f;background-image:
+           url('assets/img/underlay.png');background-repeat: no-repeat;background-size: contain;z-index: 1;transform: rotate(10deg);} 
+           .wrapper::after {content: '';display: flex;justify-content: center;align-items: center;position: absolute;width: 480px;
+           height: 400px;top: 0px;right: 0px;z-index: 1;// background-color: #f0f;background-image: url('assets/img/underlay-2.png');
+           background-repeat: no-repeat;background-size: contain;}.side-section {position: absolute;// flex: 1;// width: 100%;// 
+           height: 100%;// top: 0px;// left: 0px;// border-radius: 67px 0px 0px 94px;// background: #B1DAE2;//
+            box-shadow: -4px 0px 10px 0px rgba(0, 0, 0, 0.25);backdrop-filter: blur(100px);} .side-section .img-section 
+            {position: absolute;right: 0px;bottom: 0px;} .side-section .img-section img {width: 400px;}
+            .form-wrapper {display: flex;margin: auto 0px;flex-direction: column;position: relative;z-index: 3;max-height: 100%;overflow-y: auto;justify-content: center;align-items: center;padding: 20px;background-color: #fff;border-radius: 40px;border-top-left-radius: 0px;border-bottom-right-radius: 0px;-ms-overflow-style: none;scrollbar-width: none;} 
+            .form-wrapper::-webkit-scrollbar,  .form-wrapper::-webkit-scrollbar-track,  .form-wrapper::-webkit-scrollbar-thumb {display: none;} 
+            .form-wrapper .back-icon {display: flex;gap: 10px;justify-content: flex-start;align-items: center;width: 100%;}
+             .form-wrapper .back-icon span {font-size: 13px;font-weight: 400;text-transform: uppercase;} 
+             .form-wrapper h2 {color: #0667fa;font-size: 30px;font-weight: 600;font-style: italic;text-transform: uppercase;margin-bottom: 40px;} 
+             .form-wrapper .input-sec {display: flex;flex-direction: column;margin-bottom: 20px;width: 100%;max-width: 480px;gap: 8px;} 
+             .form-wrapper .input-sec label {display: none;font-size: 14px;font-weight: 500;color: #5d5b5b;} 
+             .form-wrapper .input-sec input, select {width: 100%;height: 45px;border: 1.5px solid #2CDCFF;border-radius: 20px;padding: 4px 20px;background-color: #fff;}.form-wrapper .input-sec input:focus {border-color: #b6f0fb;} .form-wrapper .row {display: flex;align-items: flex-end;gap: 10px;width: 100%;max-width: 480px;} .form-wrapper .row .input-sec {flex: 1;} .form-wrapper button {display: block;width: 100%;border: none;color: var(--primary-color);margin-top: 20px;border-radius: 8px;padding: 18px 0px;font-size: 15px;font-weight: 600;background-color: var(--primary-color);// height: 45px;max-width: 480px;cursor: pointer;// background: #EEF1F6;background: #EEF1F6;box-shadow: 10px 10px 20px 0px rgba(87, 108, 144, 0.33), -10px -10px 30px 0px #FFF;} .form-wrapper .terms {display: flex;align-items: center;gap: 10px;max-width: 480px;width: 100%;} .form-wrapper .terms a {font-size: 14px;font-weight: 400;color:rgb(6, 134, 253);} .form-wrapper .meta {display: flex;margin-top: 20px;justify-content: center;gap: 4px;} 
+            .form-wrapper .meta span {color: #0667fa;font-size: 14px;font-weight: 400;}.form-wrapper .meta span:last-child {font-weight: 500;color: #0667fa;} .form-wrapper .forgot-pass {display: flex;justify-content: flex-end;width: 100%;margin-top: -15px;margin-bottom: 10px;}
+             .form-wrapper .forgot-pass a {color: #0667fa;font-size: 13px;font-weight: 500;text-transform: capitalize;} @media screen and (min-width: 880px) { .wrapper {flex-direction: row-reverse;justify-content: center;// padding: 0px;}}@media screen and (min-width: 880px) { .side-section {// max-width: 60%;position: static;}}@media screen and (min-width: 880px) 
+             { .form-wrapper {position: static;flex: 1;max-width: 480px;}}</style>
+
+<div class="wrapper">
+    <div class="side-section">
+        <!-- <div class="img-section">
+            <img src="/assets/svg/welcome-vector.svg" alt="">
+        </div> -->
+    </div>
+
+    <form class="form-wrapper" method="POST" action="/signin">
+        <a class="back-icon" href="/">
+            <i class="fa-solid fa-arrow-left"></i>
+            <span>home</span>
+        </a>
+        <h2>PLUTOWAY TECHNOLOGIES</h2>
+        <div class="form-response"></div>
+        <div class="input-sec">
+            <label for="#">Username</label>
+            <input name="username" type="text" placeholder="Username" />
+        </div>
+        <div class="input-sec">
+            <label for="#">Password</label>
+            <input name="password" type="password" placeholder="Password" />
+        </div>
+        <div class="forgot-pass">
+            <a href="/password/forgot">forgot password?</a>
+        </div>
+
+		<input type="hidden" name="nocsrf" value="63a471b8b0e332616be4201d98a94d4c6a2c37970584b3eeed583efd6fdae2138b85db1f37e285e290973144aea91374fa30c07108844cc04b8a8dc2dc2475a4">
+
+        <button>Sign in</button>
+
+        <a class="meta" href="/signup">
+            <span>Don't have an account? </span>
+            <span>sign up</span>
+        </a>
+    </form>
+</div>
+	</body>
+</html>
